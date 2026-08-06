@@ -1,0 +1,130 @@
+.dashboard{
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    background-color: #020817;
+
+    color: rgb(200, 233, 189);
+
+    overflow-x: hidden;
+
+    padding: 40px;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.dashboard-header{
+
+    margin-bottom: 50px;
+}
+
+.dashboard-header h1{
+
+    font-size: 52px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.dashboard-header p{
+
+    color: #94a3b8;
+
+    font-size: 20px;
+
+}
+
+/* CARDS */
+
+.cards{
+
+   
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 40px;
+
+    margin-bottom: 45px;
+
+}
+
+.card{
+
+       background-color: #0f172a;
+
+    border-radius: 24px;
+
+    padding: 20px;
+
+    border: 1px solid #1e293b;
+
+    transition: 0.3s;
+
+    min-height: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+
+    transform: translateY(-5px);
+
+    border-color: #65ff8f;
+}
+
+.card h3{
+
+     color: #94a3b8;
+
+    margin-bottom: 15px;
+
+    font-size: 20px;
+}
+
+.card span{
+
+   font-size: 34px;
+
+    font-weight: bold;
+
+    color: #65ff8f;
+}
+
+/* CARD GRANDE */
+
+.big-card{
+
+      width: 100%;
+
+    min-height: 380px;
+
+    background-color: #0f172a;
+
+    border-radius: 24px;
+
+    padding: 35px;
+
+    border: 1px solid #1e293b;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.big-card h2{
+
+    margin-bottom: 20px;
+}

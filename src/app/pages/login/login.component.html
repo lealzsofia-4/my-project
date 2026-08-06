@@ -1,0 +1,71 @@
+
+<!-- login.component.html -->
+
+<div class="login-page">
+
+  <!-- LADO ESQUERDO -->
+  <div class="left-panel">
+
+    <div class="logo">
+      <span class="brain">BRAIN</span>
+      <span class="soil">SOIL</span>
+    </div>
+
+    <div class="content">
+
+      <h1>
+        Tecnologia e inteligência
+        para uma
+        <span>agricultura mais produtiva.</span>
+      </h1>
+
+      <p>
+        Plataforma inteligente que transforma
+        dados do solo e do clima em decisões
+        mais assertivas.
+      </p>
+
+    </div>
+
+  </div>
+
+  <!-- LADO DIREITO -->
+  <div class="right-panel">
+
+    <div class="login-card">
+
+      <img
+  src="assets/logo.png"
+  alt="Logo"
+  class="logo-img"
+>
+
+      <h2>Bem-vindo de volta!</h2>
+
+      <p>
+        Faça login para continuar
+      </p>
+
+      <input
+  type="text"
+  placeholder="Usuário"
+  [(ngModel)]="usuario"
+  name="usuario"
+      >
+
+      <input
+         type="password"
+  placeholder="Senha"
+  [(ngModel)]="senha"
+  name="senha"
+      >
+
+      <button (click)="entrar()">
+        Entrar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
