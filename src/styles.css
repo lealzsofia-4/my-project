@@ -1,18 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html,
-body{
+body {
     width: 100%;
     height: 100%;
-
-    background-color: #020817;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
-/* You can add global styles to this file, and also import other style files */
+
+/* =========================
+   VARIÁVEIS DO TEMA ESCURO
+   ========================= */
+
+:root {
+    --bg-color: #020817;
+    --card-bg: #0f172a;
+    --border-color: #1e293b;
+    --text-color: rgb(200, 233, 189);
+    --text-secondary: #94a3b8;
+    --accent-color: #65ff8f;
+
+   
+}
+/* =========================
+   TEMA CLARO
+   ========================= */
+
+body.light-theme {
+    --bg-color: #f5f7fa;
+    --card-bg: #ffffff;
+    --border-color: #d9dee7;
+    --text-color: #1f2937;
+    --text-secondary: #64748b;
+    --accent-color: #218838;
+}
+
+/* =========================
+   TEMA ESCURO
+   ========================= */
+
+body.dark-theme {
+    --bg-color: #020817;
+    --card-bg: #0f172a;
+    --border-color: #1e293b;
+    --text-color: rgb(200, 233, 189);
+    --text-secondary: #94a3b8;
+    --accent-color: #65ff8f;
+}
+
+/* =========================
+   APLICAÇÃO GLOBAL
+   ========================= */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
