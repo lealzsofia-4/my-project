@@ -2,6 +2,13 @@ h1{
     color: aquamarine;
 }
 
+h2{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color:#1e293b
+}
 .previsao{
 
     padding: 40px 30px;
@@ -13,7 +20,7 @@ h1{
 
     min-height: 380px;
 
-    background-color: #0f172a;
+    background-color: #e0e1e4;
 
     border-radius: 24px;
 
