@@ -13,7 +13,10 @@
     margin: 0 auto;
 }
 
-/* HEADER */
+
+/* =========================
+   HEADER
+========================= */
 
 .dashboard-header {
     margin-bottom: 50px;
@@ -30,7 +33,10 @@
     font-size: 20px;
 }
 
-/* CARDS */
+
+/* =========================
+   CARDS
+========================= */
 
 .cards {
     width: 100%;
@@ -88,7 +94,10 @@
     color: var(--accent-color);
 }
 
-/* CARD GRANDE */
+
+/* =========================
+   CARD GRANDE
+========================= */
 
 .big-card {
     width: 100%;
@@ -108,4 +117,148 @@
 
 .big-card h2 {
     margin-bottom: 20px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px) {
+
+    .dashboard {
+        padding: 30px;
+    }
+
+    .dashboard-header {
+        margin-bottom: 35px;
+    }
+
+    .dashboard-header h1 {
+        font-size: 42px;
+    }
+
+    .dashboard-header p {
+        font-size: 18px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .big-card {
+        padding: 30px;
+    }
+
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 768px) {
+
+    .dashboard {
+        padding: 25px 15px;
+    }
+
+    .dashboard-header {
+        margin-bottom: 30px;
+    }
+
+    .dashboard-header h1 {
+        font-size: 34px;
+    }
+
+    .dashboard-header p {
+        font-size: 17px;
+    }
+
+
+    /* CARDS */
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        min-height: 120px;
+
+        padding: 20px;
+
+        border-radius: 18px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card span {
+        font-size: 30px;
+    }
+
+
+    /* CARD GRANDE */
+
+    .big-card {
+        min-height: 300px;
+
+        padding: 20px;
+
+        border-radius: 18px;
+    }
+
+}
+
+
+/* =========================
+   CELULAR PEQUENO
+========================= */
+
+@media (max-width: 480px) {
+
+    .dashboard {
+        padding: 20px 10px;
+    }
+
+    .dashboard-header h1 {
+        font-size: 29px;
+    }
+
+    .dashboard-header p {
+        font-size: 16px;
+    }
+
+    .cards {
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        min-height: 110px;
+        padding: 18px;
+    }
+
+    .card h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .card span {
+        font-size: 27px;
+    }
+
+    .big-card {
+        min-height: 250px;
+        padding: 18px;
+        border-radius: 15px;
+    }
+
 }

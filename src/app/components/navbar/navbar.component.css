@@ -80,17 +80,18 @@ nav a:hover {
 @media (max-width: 768px) {
 
     .navbar {
-        height: auto;
-        min-height: 100px;
+        height: 190px;
+        min-height: 0;
 
-        padding: 15px 20px;
+        padding: 10px 15px;
 
         flex-direction: column;
-        gap: 15px;
+
+        gap: 8px;
     }
 
     .logo-img {
-        width: 120px;
+        width: 80px;
         padding-top: 0;
     }
 
@@ -98,9 +99,10 @@ nav a:hover {
         width: 100%;
 
         justify-content: center;
+
         flex-wrap: wrap;
 
-        gap: 15px 25px;
+        gap: 10px 20px;
     }
 
     nav a {
@@ -116,15 +118,19 @@ nav a:hover {
 @media (max-width: 480px) {
 
     .navbar {
-        padding: 15px;
+        height: 165px;
+
+        padding: 8px 10px;
+
+        gap: 5px;
     }
 
     .logo-img {
-        width: 105px;
+        width: 70px;
     }
 
     nav {
-        gap: 10px 18px;
+        gap: 8px 16px;
     }
 
     nav a {
